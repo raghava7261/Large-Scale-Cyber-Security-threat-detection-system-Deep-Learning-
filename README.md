@@ -17,9 +17,9 @@ This project addresses these issues using distributed ML models for large-scale,
  
 Dataset
 •	UNSW-NB15 Dataset
-o	Contains 2.5M+ network traffic records.
-o	Includes 49 features across normal and 9 attack types:
-	Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode, Worms.
+	Contains 2.5M+ network traffic records.
+	Includes 49 features across normal and 9 attack types:
+Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode, Worms.
 •	Download: UNSW-NB15 Dataset
  
 Architecture
