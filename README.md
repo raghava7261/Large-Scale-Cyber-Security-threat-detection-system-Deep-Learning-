@@ -24,24 +24,24 @@ o	Includes 49 features across normal and 9 attack types:
  
 Architecture
 1.	Data Preprocessing
-o	Handle missing values, normalize data.
-o	Encode categorical variables using StringIndexer and OneHotEncoder.
-o	Use VectorAssembler and StandardScaler for feature transformation.
+	Handle missing values, normalize data.
+	Encode categorical variables using StringIndexer and OneHotEncoder.
+ Use VectorAssembler and StandardScaler for feature transformation.
 2.	Feature Selection
-o	Correlation analysis & PCA (optional).
-o	Top features: dur, sbytes, dbytes, rate, sttl.
+	Correlation analysis & PCA (optional).
+oTop features: dur, sbytes, dbytes, rate, sttl.
 3.	Model Development
-o	PySpark MLlib for distributed model training.
-o	Algorithms:
+PySpark MLlib for distributed model training.
+Algorithms:
 	Decision Tree
 	Random Forest
 	Naïve Bayes
 	Gradient Boosting (best performance)
-o	DQN-based deep learning for adaptive detection.
+DQN-based deep learning for adaptive detection.
 4.	Performance Evaluation
-o	Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
-o	Gradient Boosting: 94% accuracy.
-o	DQN: 96% accuracy, reduced false positives.
+Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
+Gradient Boosting: 94% accuracy.
+DQN: 96% accuracy, reduced false positives.
  
 Tech Stack
 •	Programming Language: Python
