@@ -33,10 +33,10 @@ oTop features: dur, sbytes, dbytes, rate, sttl.
 3.	Model Development
 PySpark MLlib for distributed model training.
 Algorithms:
-	Decision Tree
-	Random Forest
-	Naïve Bayes
-	Gradient Boosting (best performance)
+Decision Tree
+Random Forest
+Naïve Bayes
+Gradient Boosting (best performance)
 DQN-based deep learning for adaptive detection.
 4.	Performance Evaluation
 Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
